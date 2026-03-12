@@ -14,12 +14,12 @@ void	ft_swap(int *a, int *b);
 
 int	main(void)
 {
-	int	a = 10;
-	int	b = 20;
+	int	v1 = 10;
+	int	v2 = 20;
 
-	printf("Antes: a=%d, b=%d\n", a, b);
-	ft_swap(&a, &b);
-	printf("Despues: a=%d, b=%d\n", a, b);
+	printf("Antes: v1 = %d, v2 = %d\n", v1, v2);
+	ft_swap(&v1, &v2);
+	printf("Despues: v1 = %d, v2 = %d\n", v1, v2);
 	return (0);
 }
 */
