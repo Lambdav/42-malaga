@@ -1,3 +1,19 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_rev_int_tab.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: davbenit <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/03/12 18:51:14 by davbenit          #+#    #+#             */
+/*   Updated: 2026/03/12 19:10:09 by davbenit         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+/*
+#include <stdio.h>
+*/
+
 void	ft_rev_int_tab(int *tab, int size)
 {
 	int	i;
@@ -14,26 +30,21 @@ void	ft_rev_int_tab(int *tab, int size)
 }
 
 /*
-#include <stdio.h>
-
-void	ft_rev_int_tab(int *tab, int size);
-
 int	main(void)
 {
 	int	tab[] = {1, 2, 3, 4, 5};
-	int	size = 5;
+	int	size;
 	int	i;
 
+	size = 5;
 	i = 0;
 	printf("Original: ");
 	while (i < size)
 		printf("%d ", tab[i++]);
 	printf("\n");
-
 	ft_rev_int_tab(tab, size);
-
 	i = 0;
-	printf("Invertido: ");
+	printf("Inverted: ");
 	while (i < size)
 		printf("%d ", tab[i++]);
 	printf("\n");

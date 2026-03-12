@@ -1,3 +1,19 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: davbenit <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/03/12 18:47:25 by davbenit          #+#    #+#             */
+/*   Updated: 2026/03/12 19:09:55 by davbenit         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+/*
+#include <stdio.h>
+*/
+
 int	ft_strlen(char *str)
 {
 	int	count;
@@ -11,17 +27,14 @@ int	ft_strlen(char *str)
 }
 
 /*
-#include <stdio.h>
-
-int	ft_strlen(char *str);
-
 int	main(void)
 {
-	char	*s = "42 Madrid";
+	char	*s;
 	int		len;
 
+	s = "Hello World";
 	len = ft_strlen(s);
-	printf("Cadena: '%s' -> Longitud: %d\n", s, len);
+	printf("String: '%s' -> Lenght: %d\n", s, len);
 	return (0);
 }
 */

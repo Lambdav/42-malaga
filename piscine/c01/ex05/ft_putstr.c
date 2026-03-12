@@ -1,6 +1,20 @@
-#include <unistd.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: davbenit <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/03/12 18:44:46 by davbenit          #+#    #+#             */
+/*   Updated: 2026/03/12 19:09:37 by davbenit         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-void  ft_putstr(char *str)
+/*
+#include <unistd.h>
+*/
+
+void	ft_putstr(char *str)
 {
 	while (*str != '\0')
 	{
@@ -10,11 +24,11 @@ void  ft_putstr(char *str)
 }
 
 /*
-void	ft_putstr(char *str);
-
 int	main(void)
 {
-	char	*cadena = "Hola Mundo 42\n";
+	char	*cadena;
+
+	cadena = "Hello World\n";
 	ft_putstr(cadena);
 	return (0);
 }

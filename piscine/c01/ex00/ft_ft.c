@@ -1,20 +1,32 @@
-void  ft_ft(int *nbr)
-{
-  *nbr = 42;
-}
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_ft.c                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: davbenit <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/03/12 18:09:32 by davbenit          #+#    #+#             */
+/*   Updated: 2026/03/12 19:08:15 by davbenit         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 /*
 #include <stdio.h>
+*/
 
-void	ft_ft(int *nbr);
+void	ft_ft(int *nbr)
+{
+	*nbr = 42;
+}
 
+/*
 int	main(void)
 {
 	int	n;
 
 	n = 0;
 	ft_ft(&n);
-	printf("Resultado ft_ft: %d (esperado: 42)\n", n);
+	printf("%d", n);
 	return (0);
 }
 */

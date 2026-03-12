@@ -1,13 +1,25 @@
-void  ft_ultimate_ft(int *********nbr)
-{
-  *********nbr = 42;
-}
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_ultimate_ft.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: davbenit <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/03/12 18:23:57 by davbenit          #+#    #+#             */
+/*   Updated: 2026/03/12 18:33:16 by davbenit         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 /*
 #include <stdio.h>
+*/
 
-void	ft_ultimate_ft(int *********nbr);
+void	ft_ultimate_ft(int *********nbr)
+{
+	*********nbr = 42;
+}
 
+/*
 int	main(void)
 {
 	int	n;
@@ -23,7 +35,7 @@ int	main(void)
 
 	n = 0;
 	ft_ultimate_ft(p9);
-	printf("Resultado ft_ultimate_ft: %d (esperado: 42)\n", n);
+	printf("%d", n);
 	return (0);
 }
 */
