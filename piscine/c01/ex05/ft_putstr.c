@@ -8,3 +8,14 @@ void  ft_putstr(char *str)
 		str++;
 	}
 }
+
+/*
+void	ft_putstr(char *str);
+
+int	main(void)
+{
+	char	*cadena = "Hola Mundo 42\n";
+	ft_putstr(cadena);
+	return (0);
+}
+*/
