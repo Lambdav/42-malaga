@@ -5,6 +5,7 @@ void  ft_ft(int *nbr)
 
 /*
 #include <stdio.h>
+
 void	ft_ft(int *nbr);
 
 int	main(void)
@@ -13,7 +14,7 @@ int	main(void)
 
 	n = 0;
 	ft_ft(&n);
-	printf("%d\n", n);
+	printf("Resultado ft_ft: %d (esperado: 42)\n", n);
 	return (0);
 }
 */
