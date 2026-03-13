@@ -1,6 +1,6 @@
 // #include <stdio.h>
 
-char ft_str_is_uppercase(char str)
+int ft_str_is_uppercase(char str)
 {
 	if (str >= 'A' && str <= 'Z')
     {
@@ -9,7 +9,7 @@ char ft_str_is_uppercase(char str)
     return (0);
 }
 
-char ft_str_is_alpha(char str)
+int ft_str_is_alpha(char str)
 {
 	if ((str >= 'a' && str <= 'z') || (str >= 'A' && str <= 'Z'))
     {
@@ -18,7 +18,7 @@ char ft_str_is_alpha(char str)
     return (0);
 }
 
-char ft_str_is_numeric(char str)
+int ft_str_is_numeric(char str)
 {
 	if (str >= '0' && str <= '9')
     {
